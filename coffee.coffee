@@ -17,7 +17,7 @@ style =
   no_implicit_parens: level: "ignore"
   no_implicit_braces: level: "ignore"
   camel_case_classes: level: "error"
-  no_stand_alone_at: level: "ignore" # due to a coffeelint bug
+  no_stand_alone_at: level: "warn" # needs improvement, @["whatever"]?
 
 module.exports = (o = {}) ->
   o.json ?= false
