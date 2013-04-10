@@ -1,10 +1,9 @@
 # sg &mdash; styleguide
 
-Something to export and reuse for linting purposes.
+My little stylegiuide is like a stargate for stellar code linting.
 
 
 ## Law
 
 This is free and unencumbered public domain software. For more information,
 see <http://unlicense.org/>.
-

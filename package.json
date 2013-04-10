@@ -1,6 +1,6 @@
-{ "name": "styleguide"
+{ "name": "sg"
 , "private": true
-, "description": "lint some code, like I do"
+, "description": "lint some code, like I do, or at least similarly"
 , "keywords": [ "styleguide", "coffee-script", "coffeelint", "lint" ]
 , "version": "0.0.1"
 , "repository":
@@ -9,7 +9,14 @@
   }
 , "author": "Orlin M Bozhinov <om@soundsapiens.com>"
 , "main": "index"
-, "dependencies": { "coffee-script": "*" }
+, "dependencies":
+  { "coffee-script": "*"
+  , "deepmerge": "*"
+  }
+, "devDependencies":
+  { "tape": "*"
+  , "underscore": "*"
+  }
 , "licenses":
   [ { "type": "Unlicense"
     , "url" : "http://unlicense.org/"
