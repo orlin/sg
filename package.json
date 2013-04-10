@@ -1,0 +1,17 @@
+{ "name": "styleguide"
+, "private": true
+, "description": "lint some code, like I do"
+, "keywords": [ "styleguide", "coffee-script", "coffeelint", "lint" ]
+, "version": "0.0.1"
+, "repository":
+  { "type": "git"
+  , "url": "git://github.com/orlin/sg.git"
+  }
+, "author": "Orlin M Bozhinov <om@soundsapiens.com>"
+, "main": "index"
+, "dependencies": { "coffee-script": "*" }
+, "licenses":
+  [ { "type": "Unlicense"
+    , "url" : "http://unlicense.org/"
+    } ]
+}
