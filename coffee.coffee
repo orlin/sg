@@ -1,3 +1,4 @@
+merge = require "deepmerge"
 style =
   indentation:
     value: 2
@@ -20,5 +21,6 @@ style =
 
 module.exports = (o = {}) ->
   o.json ?= false
+  o.style = unless o.opts? then style else merge style, o.opts
 
-  if o.json then JSON.stringify style else style
+  if o.json then JSON.stringify o.style else o.style
