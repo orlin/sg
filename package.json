@@ -17,6 +17,7 @@
   { "tape": "*"
   , "underscore": "*"
   }
+, "scripts": { "test": "test/coffee.coffee" }
 , "licenses":
   [ { "type": "Unlicense"
     , "url" : "http://unlicense.org/"
