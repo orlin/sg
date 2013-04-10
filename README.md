@@ -1,4 +1,4 @@
-# sg &mdash; styleguide
+# sg &mdash; styleguide / sourcegate
 
 My little stylegiuide is like a stargate for stellar code linting.
 
