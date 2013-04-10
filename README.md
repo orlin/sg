@@ -1,3 +1,4 @@
+# [![Build Status](https://secure.travis-ci.org/orlin/sg.png)](http://travis-ci.org/orlin/sg)
 # sg &mdash; styleguide / sourcegate
 
 My little stylegiuide is like a stargate for stellar code linting.
