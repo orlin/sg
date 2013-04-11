@@ -1,6 +1,6 @@
 #!/usr/bin/env coffee
 
-coffee = require("../index").coffee
+coffee = require(require("findup-sync") "index.js").coffee
 
 test = require "tape"
 _ = require "underscore"

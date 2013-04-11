@@ -16,6 +16,7 @@
 , "devDependencies":
   { "tape": "*"
   , "underscore": "*"
+  , "findup-sync": "*"
   }
 , "scripts": { "test": "test/coffee.coffee" }
 , "licenses":
