@@ -11,7 +11,7 @@
 , "main": "index"
 , "dependencies":
   { "coffee-script": "*"
-  , "deepmerge": "*"
+  , "sourcegate": "*"
   }
 , "devDependencies":
   { "tape": "*"
