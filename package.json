@@ -1,8 +1,8 @@
 { "name": "sg"
 , "private": false
 , "description": "lint some code, like I do, or at least similarly"
-, "keywords": [ "styleguide", "coffee-script", "coffeelint", "lint" ]
-, "version": "0.0.1"
+, "keywords": [ "styleguide", "meta", "lint", "coffee-script", "coffeelint", "rules" ]
+, "version": "0.1.0"
 , "repository":
   { "type": "git"
   , "url": "git://github.com/orlin/sg.git"
@@ -11,12 +11,14 @@
 , "main": "index"
 , "dependencies":
   { "coffee-script": "*"
-  , "deepmerge": "*"
+  , "sourcegate": "*"
   }
 , "devDependencies":
   { "tape": "*"
   , "underscore": "*"
+  , "findup-sync": "*"
   }
+, "scripts": { "test": "echo \"sg is a sourcegate\" && node_modules/sourcegate/test/*.coffee" }
 , "licenses":
   [ { "type": "Unlicense"
     , "url" : "http://unlicense.org/"
