@@ -14,7 +14,10 @@
   , "sourcegate": "*"
   }
 , "devDependencies":
-  { "tape": "*"
+  { "trap": "*"
+  , "chai": "*"
+  , "trap-chai": "*"
+  , "tape": "*"
   , "underscore": "*"
   , "findup-sync": "*"
   }
