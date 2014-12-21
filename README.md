@@ -1,4 +1,4 @@
-# sg &mdash; styleguide sourcegate [![Build Status](https://img.shields.io/travis/orlin/sg.svg)](http://travis-ci.org/orlin/sg)
+# sg &mdash; styleguide sourcegate [![Build Status](https://img.shields.io/travis/orlin/sg.svg?style=flat)]()
 
 My little stylegiuide is like a stargate for stellar code linting.
 
